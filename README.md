@@ -9,4 +9,4 @@ Some preset for the settings of the plugin.
 - Start a Pull-Request.
 
 ## Presets list
-- [mkdocs.json](./presets/mkdocs.json): For [Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/template/)
+- [mkdocs.json](./presets/mkdocs.json): For [Obsidian Mkdocs Publisher]([https://obsidian-publisher.netlify.app/template/](https://obsidian-publisher.netlify.app/plugin/example/configuration%20example/#mkdocs-publisher)https://obsidian-publisher.netlify.app/plugin/example/configuration%20example/#mkdocs-publisher)
