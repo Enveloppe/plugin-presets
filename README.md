@@ -10,3 +10,4 @@ Some preset for the settings of the plugin.
 
 ## Presets list
 - [mkdocs.json](./presets/mkdocs.json): For [Obsidian Mkdocs Publisher]([https://obsidian-publisher.netlify.app/template/](https://obsidian-publisher.netlify.app/plugin/example/configuration%20example/#mkdocs-publisher)https://obsidian-publisher.netlify.app/plugin/example/configuration%20example/#mkdocs-publisher)
+- [hugo.json](./presets/hugo.json): For [Hugo](https://gohugo.io/) website configuration, including [link conversion](https://gohugo.io/content-management/cross-references/) from Wikilinks to Hugo format.
