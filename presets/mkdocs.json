@@ -1,17 +1,21 @@
 {
-  "github": {
+  "github": {{
     "branch": "main",
     "automaticallyMergePR": true,
+    "dryRun": {
+      "enable": false,
+      "folderName": "github-publisher"
+    },
+    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env",
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
       "hostname": ""
     },
-    "otherRepo": [],
     "workflow": {
-      "name": "",
-      "commitMessage": "[skip netlify] PUBLISHER"
+      "commitMessage": "[skip netlify] PUBLISHER",
+      "name": ""
     },
-    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env"
+    "verifiedRepo": true
   },
   "upload": {
     "behavior": "yaml",
@@ -36,10 +40,13 @@
     },
     "folderNote": {
       "enable": true,
-      "rename": "index.md"
+      "rename": "index.md",
+      "addTitle": {
+        "enable": false,
+        "key": "title"
+      }
     },
     "metadataExtractorPath": "",
-    "replacePath": []
   },
   "conversion": {
     "hardbreak": false,
@@ -53,15 +60,20 @@
     "links": {
       "internal": true,
       "unshared": false,
-      "wiki": false
+      "wiki": false,
+      "slugify": false
     }
   },
   "embed": {
     "attachments": true,
+    "overrideAttachments": [],
     "keySendFile": [
       "image"
     ],
     "notes": true,
-    "folder": "docs/assets/img"
+    "folder": "docs/assets/img",
+    "convertEmbedToLinks": "keep",
+    "charConvert": "->",
+    "forcePushAttachments": []
   }
 }
