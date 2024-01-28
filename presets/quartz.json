@@ -1,0 +1,66 @@
+{
+  "github": {
+    "branch": "v4",
+    "automaticallyMergePR": true,
+    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env",
+    "api": {
+      "tiersForApi": "Github Free/Pro/Team (default)",
+      "hostname": ""
+    },
+    "workflow": {
+      "commitMessage": "[PUBLISHER] MERGE",
+      "name": ""
+    },
+    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env",
+    "verifiedRepo": true
+  },
+  "upload": {
+    "behavior": "obsidian",
+    "defaultName": "content",
+    "rootFolder": "",
+    "yamlFolderKey": "",
+    "frontmatterTitle": {
+      "enable": true,
+      "key": "title"
+    },
+    "replaceTitle": [],
+    "replacePath": [],
+    "autoclean": {
+      "enable": false,
+      "excluded": []
+    },
+    "folderNote": {
+      "enable": true,
+      "rename": "_index.md",
+      "addTitle": {
+        "enable": true,
+        "key": "title"
+      }
+    },
+    "metadataExtractorPath": "",
+    "subFolder": ""
+  },
+  "conversion": {
+    "hardbreak": false,
+    "dataview": true,
+    "censorText": [],
+    "tags": {
+      "inline": true,
+      "exclude": [],
+      "fields": []
+    },
+    "links": {
+      "internal": false,
+      "unshared": false,
+      "wiki": false,
+      "slugify": false
+    }
+  },
+  "embed": {
+    "attachments": true,
+    "keySendFile": [],
+    "notes": true,
+    "folder": "",
+    "useObsidianFolder": true
+  }
+}
