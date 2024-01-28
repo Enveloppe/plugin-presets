@@ -1,0 +1,74 @@
+{
+  "github": {
+    "branch": "main",
+    "automaticallyMergePR": true,
+    "dryRun": {
+      "enable": false,
+      "folderName": "github-publisher"
+    },
+    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env",
+    "api": {
+      "tiersForApi": "Github Free/Pro/Team (default)",
+      "hostname": ""
+    },
+    "workflow": {
+      "commitMessage": "PUBLISHER",
+      "name": ""
+    },
+    "verifiedRepo": true
+  },
+  "upload": {
+    "behavior": "yaml",
+    "defaultName": "content/hidden",
+    "rootFolder": "content",
+    "yamlFolderKey": "category",
+    "frontmatterTitle": {
+      "enable": true,
+      "key": "name"
+    },
+    "replaceTitle": [],
+    "replacePath": [],
+    "autoclean": {
+      "enable": true,
+      "excluded": []
+    },
+    "folderNote": {
+      "enable": true,
+      "rename": "index.md",
+      "addTitle": {
+        "enable": false,
+        "key": "title"
+      }
+    },
+    "metadataExtractorPath": "",
+    "subFolder": ""
+  },
+  "conversion": {
+    "hardbreak": false,
+    "dataview": false,
+    "censorText": [],
+    "tags": {
+      "inline": true,
+      "exclude": [],
+      "fields": []
+    },
+    "links": {
+      "internal": true,
+      "unshared": false,
+      "wiki": false,
+      "slugify": false
+    }
+  },
+  "embed": {
+    "attachments": true,
+    "overrideAttachments": [],
+    "keySendFile": [
+      "image"
+    ],
+    "notes": true,
+    "folder": "content/img",
+    "convertEmbedToLinks": "keep",
+    "charConvert": "->",
+    "forcePushAttachments": []
+  }
+}
